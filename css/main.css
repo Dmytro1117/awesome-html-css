@@ -56,9 +56,6 @@ body {
 
 /* Page header */
 
-.page-header {
-}
-
 /* Main nav */
 
 .main-nav {
@@ -70,10 +67,6 @@ body {
 .site-nav {
   display: flex;
   margin-left: 70px;
-}
-
-.site-nav .item {
-  /* background-color: tomato; */
 }
 
 .site-nav .item + .item {
