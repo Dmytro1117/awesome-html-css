@@ -1,0 +1,19 @@
+:root {
+  --primary-text-color: rgba(0, 0, 0, 0.8);
+  --title-text-color: #000000;
+  --accent-color: #18a0fb;
+  --primary-white-color: #ffffff;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+  font-family: Montserrat, sans-serif;
+  letter-spacing: -0.015em;
+  font-size: 18px;
+  line-height: 1.67;
+}
+
+.list {
+  list-style: none;
+}
