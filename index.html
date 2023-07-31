@@ -11,32 +11,39 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./main.css" />
   </head>
   <body>
-    <header>
-      <a href="/">
-        <img src="./paddler.png" alt="Webstudio logo" width="64" />
-        Site-production
-      </a>
+    <header class="container">
+      <div class="header-nav">
+        <a href="/">
+          <img src="./paddler.png" alt="Webstudio logo" width="44" />
+        </a>
 
-      <nav>
-        <ul>
-          <li><a href="#Features">Features</a></li>
-          <li><a href="#Our">Our technology stack</a></li>
-          <li><a href="#All">Як заварити чай</a></li>
-          <li><a href="#Img">Картинки</a></li>
-          <li><a href="#Video">Відео</a></li>
-        </ul>
-      </nav>
+        <nav>
+          <ul class="header-nav_link">
+            <li><a href="#Features">Features</a></li>
+            <li><a href="#Our">Our technology stack</a></li>
+            <li><a href="#All">Як заварити чай</a></li>
+            <li><a href="#Img">Картинки</a></li>
+            <li><a href="#Video">Відео</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main>
-      <section>
+      <section class="container">
         <h2 id="Features">Features</h2>
-
-        <ul>
-          <li>
+        <ul class="feather">
+          <li class="feather__list">
             <img
               src="https://cdn.pixabay.com/photo/2015/09/09/19/56/office-932926_1280.jpg"
               alt="Workplace in the company"
@@ -49,7 +56,7 @@
               laborum sunt, modi nemo?
             </p>
           </li>
-          <li>
+          <li class="feather__list">
             <img
               src="https://cdn.pixabay.com/photo/2015/05/31/10/55/man-791049_1280.jpg"
               alt="A man holds a tablet in his hands and drinks coffee"
@@ -62,7 +69,7 @@
               laborum sunt, modi nemo?
             </p>
           </li>
-          <li>
+          <li class="feather__list">
             <img
               src="https://cdn.pixabay.com/photo/2018/03/10/12/00/paper-3213924_1280.jpg"
               alt="Four hands in a gesture of mutual assistance"
@@ -78,7 +85,7 @@
         </ul>
       </section>
 
-      <section>
+      <section class="container">
         <h2 id="Our">Our technology stack</h2>
 
         <ul>
@@ -92,7 +99,7 @@
         </ul>
       </section>
 
-      <section>
+      <section class="container">
         <h2 id="All">Як заварити чай</h2>
         <p>
           Покрокова інструкція для чайників, просто повтори і у тебе все вийде!
@@ -104,40 +111,41 @@
           <li>Налити в чашку окріп</li>
           <li>Чекати 10 хвилин, після чого можна пити</li>
         </ol>
+      </section>
 
-        <section>
-          <h2 id="Img">Картинки</h2>
+      <section class="container">
+        <h2 id="Img">Картинки</h2>
+        <img
+          src="https://loremflickr.com/640/320"
+          alt="Довільна картинка від генератора"
+          height="320"
+        />
+
+        <a href="https://www.pexels.com/photo/animals-sweet-cat-kitty-57416/">
           <img
-            src="https://loremflickr.com/640/320"
-            alt="Довільна картинка від генератора"
+            src="https://images.pexels.com/photos/57416/cat-sweet-kitty-animals-57416.jpeg?w=640"
+            alt="Рудий кіт"
             height="320"
           />
+        </a>
+      </section>
 
-          <a href="https://www.pexels.com/photo/animals-sweet-cat-kitty-57416/">
-            <img
-              src="https://images.pexels.com/photos/57416/cat-sweet-kitty-animals-57416.jpeg?w=640"
-              alt="Рудий кіт"
-              height="320"
-            />
-          </a>
-        </section>
+      <section class="container">
+        <h2 id="Video">Відео</h2>
+        <video
+          src="http://techslides.com/demos/sample-videos/small.webm"
+          poster="https://images.pexels.com/photos/595804/pexels-photo-595804.jpeg?w=640"
+          width="640"
+          controls
+          loop
+          preload="auto"
+        ></video>
+
+        <audio src="" controls loop preload="auto"></audio>
       </section>
     </main>
-    <section>
-      <h2 id="Video">Відео</h2>
-      <video
-        src="http://techslides.com/demos/sample-videos/small.webm"
-        poster="https://images.pexels.com/photos/595804/pexels-photo-595804.jpeg?w=640"
-        width="640"
-        controls
-        loop
-        preload="auto"
-      ></video>
 
-      <audio src="" controls loop preload="auto"></audio>
-    </section>
-
-    <footer>
+    <footer class="container">
       <p>All rights reserved &copy;site.dev</p>
 
       <p>Our contacts in social networks</p>
