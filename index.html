@@ -40,8 +40,7 @@
     </header>
 
     <main>
-      <button class="chat-button"></button>
-      <section class="container">
+      <section class="container feath">
         <h2 id="Features">Features</h2>
         <ul class="feather">
           <li class="feather__list">
@@ -150,10 +149,60 @@
           <audio src="" controls loop preload="auto"></audio>
         </div>
       </section>
+
+      <section class="container form">
+        <h2 id="Form">Форми</h2>
+        <form name="signup_form" autocomplete="on">
+          <label>
+            Username
+            <input
+              type="text"
+              name="text"
+              required
+              pattern="^[a-zA-Z]+\s[a-zA-Z]+$"
+              title="Username must be two words separated by space."
+            />
+          </label>
+
+          <label>
+            Phone number
+            <input type="tel" name="phone_number" required />
+          </label>
+
+          <label>
+            Email
+            <input type="email" name="email" required />
+          </label>
+
+          <label>
+            Password
+            <input
+              type="password"
+              name="password"
+              minlength="5"
+              maxlength="12"
+              required
+              pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"
+              title="Please include at least 1 uppercase character, 1 lowercase character, and 1 number."
+            />
+          </label>
+          <label>
+            Feedback
+            <textarea
+              name="feedback"
+              rows="5"
+              placeholder="Enter your message here..."
+            ></textarea>
+          </label>
+
+          <button class="btn-sub" type="submit">Submit</button>
+        </form>
+      </section>
+      <button class="chat-button"></button>
     </main>
 
     <footer class="container">
-      <p class="fot">All rights reserved &copy;site.dev</p>
+      <p class="fot">2023 All rights reserved &copy;site.dev</p>
     </footer>
   </body>
 </html>
