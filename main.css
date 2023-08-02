@@ -17,7 +17,6 @@ body {
   font-size: 18px;
   line-height: 1.67;
   background-color: #f9f9fd;
-  margin-top: 100px;
 }
 
 li {
@@ -35,6 +34,7 @@ a {
 }
 
 h2 {
+  margin-top: 0;
   font-size: 50px;
   color: #0a186a;
 }
@@ -69,12 +69,12 @@ img {
 
 .container {
   width: 1230px;
-  margin: 0 auto;
+  margin: 0 auto 50px;
   padding-left: 15px;
   padding-right: 15px;
 }
 
-.header-111 {
+/* .header-111 {
   position: fixed;
   width: 1200px;
   top: 0;
@@ -82,7 +82,7 @@ img {
   transform: translateX(-50%);
   z-index: 999;
   padding: 0;
-}
+} */
 
 .header-nav {
   /* position: fixed;
