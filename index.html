@@ -88,7 +88,7 @@
       <section class="container">
         <h2 id="Our">Our technology stack</h2>
 
-        <ul>
+        <ul class="technology">
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
@@ -115,47 +115,44 @@
 
       <section class="container">
         <h2 id="Img">Картинки</h2>
-        <img
-          src="https://loremflickr.com/640/320"
-          alt="Довільна картинка від генератора"
-          height="320"
-        />
-
-        <a href="https://www.pexels.com/photo/animals-sweet-cat-kitty-57416/">
+        <div>
           <img
-            src="https://images.pexels.com/photos/57416/cat-sweet-kitty-animals-57416.jpeg?w=640"
-            alt="Рудий кіт"
+            src="https://loremflickr.com/640/320"
+            alt="Довільна картинка від генератора"
+            width="540"
             height="320"
           />
-        </a>
+
+          <a href="https://www.pexels.com/photo/animals-sweet-cat-kitty-57416/">
+            <img
+              src="https://images.pexels.com/photos/57416/cat-sweet-kitty-animals-57416.jpeg?w=640"
+              alt="Рудий кіт"
+              width="540"
+              height="320"
+            />
+          </a>
+        </div>
       </section>
 
       <section class="container">
         <h2 id="Video">Відео</h2>
-        <video
-          src="http://techslides.com/demos/sample-videos/small.webm"
-          poster="https://images.pexels.com/photos/595804/pexels-photo-595804.jpeg?w=640"
-          width="640"
-          controls
-          loop
-          preload="auto"
-        ></video>
+        <div class="vid">
+          <video
+            src="http://techslides.com/demos/sample-videos/small.webm"
+            poster="https://images.pexels.com/photos/595804/pexels-photo-595804.jpeg?w=640"
+            width="640"
+            controls
+            loop
+            preload="auto"
+          ></video>
 
-        <audio src="" controls loop preload="auto"></audio>
+          <audio src="" controls loop preload="auto"></audio>
+        </div>
       </section>
     </main>
 
     <footer class="container">
-      <p>All rights reserved &copy;site.dev</p>
-
-      <p>Our contacts in social networks</p>
-      <ul>
-        <li><a href="">Facebook</a></li>
-        <li><a href="">Twitter</a></li>
-        <li><a href="">Instagram</a></li>
-      </ul>
-
-      <button type="button">Request a call back</button>
+      <p class="fot">All rights reserved &copy;site.dev</p>
     </footer>
   </body>
 </html>
