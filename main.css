@@ -48,7 +48,7 @@ img {
 /* ========================================================= */
 
 .header {
-  background-color: #2f303ad2;
+  background-color: #18a0fb;
   border-bottom: 1px solid rgba(14, 80, 235, 0.093);
   box-shadow: 1px 4px 6px 0px rgba(14, 146, 235, 0.16),
     0px 4px 4px 0px rgba(14, 146, 235, 0.06),
@@ -72,17 +72,19 @@ img {
   min-width: 100px;
   text-align: center;
   display: block;
-  background-color: #329be0;
-  padding: 5px;
+  background-color: #fff;
+  padding: 2px 8px;
   margin-left: 10px;
-  border-radius: 4px;
-  color: white;
+  font-size: 20px;
+  /* border-radius: 4px; */
+  color: #2f303a;
   transition: background-color 250ms linear, color 250ms linear;
 }
 
 .header__link:hover {
-  background-color: #ffffff;
+  /* background-color: #18a0fb; */
   color: #18a0fb;
+  text-decoration: underline;
 }
 
 /* ================================================== */
@@ -165,15 +167,15 @@ img {
   text-align: center;
   font-size: 22px;
   padding: 10px 20px;
-  background-color: #329be0;
+  background-color: #2f303ad2;
   color: aliceblue;
   border-radius: 4px;
   transition: background-color 250ms linear, color 250ms linear;
 }
 
 .technology__item:hover {
-  background-color: yellow;
-  color: rgb(13, 133, 239);
+  background-color: #329be0;
+  color: #fff;
   cursor: pointer;
 }
 
@@ -241,7 +243,7 @@ img {
 .video {
   padding-top: 40px;
   padding-bottom: 60px;
-  background-color: rgba(47, 48, 58, 0.093);
+  /* background-color: rgba(47, 48, 58, 0.093); */
 }
 
 .video__title {
@@ -321,7 +323,7 @@ img {
 /* ==================================== */
 
 .magazine {
-  padding-top: 60px;
+  padding-top: 20px;
   padding-bottom: 60px;
 }
 
