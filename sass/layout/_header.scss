@@ -1,0 +1,36 @@
+.header {
+  background-color: $primary-bkg-clr;
+  border-bottom: 1px solid $primary-bkg-clr;
+  box-shadow: 1px 4px 6px 0px rgba(14, 146, 235, 0.16), 0px 4px 4px 0px rgba(14, 146, 235, 0.06),
+    0px 1px 1px 0px rgba(14, 146, 235, 0.12);
+}
+
+.header__container {
+  @extend .container;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.header__menu {
+  display: flex;
+}
+
+.header__link {
+  min-width: 100px;
+  text-align: center;
+  display: block;
+  background-color: $white-bkg-clr;
+  padding: 2px 8px;
+  margin-left: 10px;
+  font-size: 20px;
+  color: #2f303a;
+  transition: background-color 250ms $transform-funct, color 250ms $transform-funct;
+
+  &:hover {
+    color: $primary-bkg-clr;
+    text-decoration: underline;
+  }
+}

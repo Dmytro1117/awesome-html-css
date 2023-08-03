@@ -1,0 +1,54 @@
+.forms__container {
+  @extend .container;
+}
+
+.forms {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  background-color: $secondary-bkg-clr;
+}
+
+.forms__title {
+  margin-bottom: 40px;
+  color: $title-text-clr;
+  text-align: center;
+  font-size: 46px;
+  letter-spacing: 1.08px;
+}
+
+.forms__item {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 0 auto;
+}
+
+.forms__input {
+  padding: 8px;
+  font-family: inherit;
+}
+
+.forms__label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+
+.forms__textaria {
+  resize: none;
+}
+
+.forms-btn {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  display: inline-flex;
+  padding: 12px 32px;
+  border: none;
+  border-radius: 4px;
+  background-color: $primary-bkg-clr;
+  color: $white-bkg-clr;
+  width: 200px;
+  cursor: pointer;
+}

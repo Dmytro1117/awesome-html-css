@@ -1,0 +1,29 @@
+.fabregas__container {
+  @extend .container;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(/image/Fabregas.jpg);
+  min-height: 700px;
+  background-size: cover;
+  background-position: center;
+}
+
+.fabregas__title {
+  margin-bottom: 25px;
+  color: $white-bkg-clr;
+  text-align: center;
+  font-size: 46px;
+  letter-spacing: 1.08px;
+}
+
+.fabregas__text {
+  max-width: 600px;
+  text-align: center;
+  color: $white-bkg-clr;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.42px;
+}

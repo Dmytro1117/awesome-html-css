@@ -1,0 +1,26 @@
+.gallery {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.gallery__container {
+  @extend .container;
+}
+
+.gallery__title {
+  margin-bottom: 40px;
+  color: $title-text-clr;
+  text-align: center;
+  font-size: 46px;
+  letter-spacing: 1.08px;
+}
+
+.gallery__wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.gallery__img {
+  width: 350px;
+  height: 300px;
+}

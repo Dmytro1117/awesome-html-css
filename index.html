@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML, CSS</title>
+    <title>HTML, SASS</title>
     <link rel="shortcut icon" href="./image/logo.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,11 +18,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="header">
-      <div class="container header__container">
+      <div class="header__container">
         <a href="/">
           <img src="./image/logo.png" alt="logo" width="44" />
         </a>
@@ -57,7 +57,7 @@
 
     <main>
       <section class="features" id="Features">
-        <div class="container features__container">
+        <div class="features__container">
           <h2 class="features__title">Features</h2>
           <ul class="features__list">
             <li class="features__item">
@@ -69,8 +69,8 @@
               />
               <h3 class="features__item-title">Experience</h3>
               <p class="features__item-text">
-                Eius repellendus voluptates sequi natus accusantium adipisci
-                ratione laborum sunt, modi nemo?
+                Eius repellendus voluptates sequi natus accusantium adipisci ratione laborum sunt,
+                modi nemo?
               </p>
             </li>
             <li class="features__item">
@@ -82,8 +82,8 @@
               />
               <h3 class="features__item-title">Technology stack</h3>
               <p class="features__item-text">
-                Eius repellendus voluptates sequi natus accusantium adipisci
-                ratione laborum sunt, modi nemo?
+                Eius repellendus voluptates sequi natus accusantium adipisci ratione laborum sunt,
+                modi nemo?
               </p>
             </li>
             <li class="features__item">
@@ -95,8 +95,8 @@
               />
               <h3 class="features__item-title">Support</h3>
               <p class="features__item-text">
-                Eius repellendus voluptates sequi natus accusantium adipisci
-                ratione laborum sunt, modi nemo?
+                Eius repellendus voluptates sequi natus accusantium adipisci ratione laborum sunt,
+                modi nemo?
               </p>
             </li>
           </ul>
@@ -117,11 +117,7 @@
                 />
                 <h2 class="product__name">Boots</h2>
                 <p class="product__price">Price: 200 credits</p>
-                <button
-                  type="button"
-                  class="button product__button"
-                  aria-label="Add to cart"
-                >
+                <button type="button" class="button product__button" aria-label="Add to cart">
                   <svg class="button__icon" width="20" height="20">
                     <use href="./image/icon.svg#cart"></use>
                   </svg>
@@ -137,11 +133,7 @@
                 />
                 <h2 class="product__name">Watch</h2>
                 <p class="product__price">Price: 400 credits</p>
-                <button
-                  type="button"
-                  class="button product__button"
-                  aria-label="Add to cart"
-                >
+                <button type="button" class="button product__button" aria-label="Add to cart">
                   <svg class="button__icon" width="20" height="20">
                     <use href="./image/icon.svg#cart"></use>
                   </svg>
@@ -157,11 +149,7 @@
                 />
                 <h2 class="product__name">Glasses</h2>
                 <p class="product__price">Price: 150 credits</p>
-                <button
-                  type="button"
-                  class="button product__button"
-                  aria-label="Add to cart"
-                >
+                <button type="button" class="button product__button" aria-label="Add to cart">
                   <svg class="button__icon" width="20" height="20">
                     <use href="./image/icon.svg#cart"></use>
                   </svg>
@@ -177,11 +165,7 @@
                 />
                 <h2 class="product__name">Backpack</h2>
                 <p class="product__price">Price: 320 credits</p>
-                <button
-                  type="button"
-                  class="button product__button"
-                  aria-label="Add to cart"
-                >
+                <button type="button" class="button product__button" aria-label="Add to cart">
                   <svg class="button__icon" width="20" height="20">
                     <use href="./image/icon.svg#cart"></use>
                   </svg>
@@ -197,11 +181,7 @@
                 />
                 <h2 class="product__name">Cap</h2>
                 <p class="product__price">Price: 120 credits</p>
-                <button
-                  type="button"
-                  class="button product__button"
-                  aria-label="Add to cart"
-                >
+                <button type="button" class="button product__button" aria-label="Add to cart">
                   <svg class="button__icon" width="20" height="20">
                     <use href="./image/icon.svg#cart"></use>
                   </svg>
@@ -217,11 +197,7 @@
                 />
                 <h2 class="product__name">Lamp</h2>
                 <p class="product__price">Price: 240 credits</p>
-                <button
-                  type="button"
-                  class="button product__button"
-                  aria-label="Add to cart"
-                >
+                <button type="button" class="button product__button" aria-label="Add to cart">
                   <svg class="button__icon" width="20" height="20">
                     <use href="./image/icon.svg#cart"></use>
                   </svg>
@@ -233,7 +209,7 @@
       </section>
 
       <section class="technology" id="Our">
-        <div class="container technology__container">
+        <div class="technology__container">
           <h2 class="technology__title">Our technology stack</h2>
           <ul class="technology__list">
             <li class="technology__item">HTML</li>
@@ -248,7 +224,7 @@
       </section>
 
       <section class="gallery" id="Img">
-        <div class="container gallery__container">
+        <div class="gallery__container">
           <h2 class="gallery__title">Gallery</h2>
           <div class="gallery__wrapper">
             <img
@@ -259,9 +235,7 @@
               height="320"
             />
 
-            <a
-              href="https://www.pexels.com/photo/animals-sweet-cat-kitty-57416/"
-            >
+            <a href="https://www.pexels.com/photo/animals-sweet-cat-kitty-57416/">
               <img
                 class="gallery__img"
                 src="https://images.pexels.com/photos/57416/cat-sweet-kitty-animals-57416.jpeg?w=640"
@@ -283,7 +257,7 @@
       </section>
 
       <section class="video" id="Video">
-        <div class="container video__container">
+        <div class="video__container">
           <h2 class="video__title">Video and audio</h2>
 
           <video
@@ -301,34 +275,30 @@
       </section>
 
       <section class="fabregas" id="Ceck">
-        <div class="container fabregas__container">
+        <div class="fabregas__container">
           <h2 class="fabregas__title">Сеск Фабрегас</h2>
           <p class="fabregas__text">
-            Упродовж 20 років кар'єри на вищому рівні я з невеликим острахом
-            чекав того дня, коли мені доведеться повісити бутси на цвях. Але у
-            тренерстві я знайшов свою пристрасть. Це змушує мене дивитися на гру
-            зовсім по-новому, і це робить перехід у життя після гри трохи
-            легшим. Я вперше почав думати про те, щоб стати тренером, коли мені
-            виповнилося 30 років. Через три роки я грав за Монако, коли настав
-            карантин через коронавірус. У Франції ліга припинилася повністю.
-            Раптом я опинився прикутим до дому, маючи багато вільного часу. Я
-            провів чотири місяці вдома, тож присвятив себе вивченню нового та
-            покращенню свого бачення гри. СЕСК ФАБРЕГАС, GETTY IMAGES Я багато
-            дивився футбол і досі це роблю. Я одержимий грою. Кожен день я
-            дивлюся два-три матчі. Я аналізував ігри, які ми грали в Комо. Що б
-            я зробив, якби був тренером? Як би грала моя команда і як би я
-            реагував на певні ситуації? Я намагаюся телефонувати людям, які
-            давно в грі. Моя мета — вдосконалюватися. Я хочу брати ідеї від
-            людей навколо мене. Це те, чим я справді захоплений. У своїй кар'єрі
-            гравця я працював під керівництвом Арсена Венгера, Пепа Гвардіоли,
-            Жозе Моурінью, Антоніо Конте, Луїса Арагонеса та Вісенте дель Боске.
-            Мені дуже пощастило
+            Упродовж 20 років кар'єри на вищому рівні я з невеликим острахом чекав того дня, коли
+            мені доведеться повісити бутси на цвях. Але у тренерстві я знайшов свою пристрасть. Це
+            змушує мене дивитися на гру зовсім по-новому, і це робить перехід у життя після гри
+            трохи легшим. Я вперше почав думати про те, щоб стати тренером, коли мені виповнилося 30
+            років. Через три роки я грав за Монако, коли настав карантин через коронавірус. У
+            Франції ліга припинилася повністю. Раптом я опинився прикутим до дому, маючи багато
+            вільного часу. Я провів чотири місяці вдома, тож присвятив себе вивченню нового та
+            покращенню свого бачення гри. СЕСК ФАБРЕГАС, GETTY IMAGES Я багато дивився футбол і досі
+            це роблю. Я одержимий грою. Кожен день я дивлюся два-три матчі. Я аналізував ігри, які
+            ми грали в Комо. Що б я зробив, якби був тренером? Як би грала моя команда і як би я
+            реагував на певні ситуації? Я намагаюся телефонувати людям, які давно в грі. Моя мета —
+            вдосконалюватися. Я хочу брати ідеї від людей навколо мене. Це те, чим я справді
+            захоплений. У своїй кар'єрі гравця я працював під керівництвом Арсена Венгера, Пепа
+            Гвардіоли, Жозе Моурінью, Антоніо Конте, Луїса Арагонеса та Вісенте дель Боске. Мені
+            дуже пощастило
           </p>
         </div>
       </section>
 
       <section class="forms" id="Form">
-        <div class="container forms__container">
+        <div class="forms__container">
           <h2 class="forms__title">Forms</h2>
           <form class="forms__item" name="signup_form" autocomplete="on">
             <label class="forms__label">
@@ -345,12 +315,7 @@
 
             <label class="forms__label">
               Phone number
-              <input
-                class="forms__input"
-                type="tel"
-                name="phone_number"
-                required
-              />
+              <input class="forms__input" type="tel" name="phone_number" required />
             </label>
 
             <label class="forms__label">

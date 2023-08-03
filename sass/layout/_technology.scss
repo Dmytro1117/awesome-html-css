@@ -1,0 +1,39 @@
+.technology {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  background-color: $secondary-bkg-clr;
+}
+
+.technology__container {
+  @extend .container;
+}
+
+.technology__title {
+  margin-bottom: 40px;
+  color: $title-text-clr;
+  text-align: center;
+  font-size: 46px;
+  letter-spacing: 1.08px;
+}
+
+.technology__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.technology__item {
+  min-width: 125px;
+  text-align: center;
+  font-size: 22px;
+  padding: 10px 20px;
+  background-color: #2f303ad2;
+  color: $white-bkg-clr;
+  border-radius: 4px;
+  transition: background-color 250ms $transform-funct, color 250ms $transform-funct;
+
+  &:hover {
+    background-color: $primary-bkg-clr;
+    color: $white-bkg-clr;
+    cursor: pointer;
+  }
+}
