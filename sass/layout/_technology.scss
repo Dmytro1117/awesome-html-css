@@ -17,11 +17,26 @@
 }
 
 .technology__list {
-  display: flex;
-  justify-content: space-between;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1279px) {
+    justify-content: center;
+    margin: -18px;
+  }
 }
 
 .technology__item {
+  @media screen and (max-width: 767px) {
+    margin-top: 16px;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   min-width: 125px;
   text-align: center;
   font-size: 22px;
@@ -30,6 +45,11 @@
   color: $white-bkg-clr;
   border-radius: 4px;
   transition: background-color 250ms $transform-funct, color 250ms $transform-funct;
+
+  @media screen and (min-width: 768px) and (max-width: 1279px) {
+    width: 200px;
+    margin: 18px;
+  }
 
   &:hover {
     background-color: $primary-bkg-clr;

@@ -27,31 +27,38 @@
           <img src="./image/logo.png" alt="logo" width="44" />
         </a>
 
-        <nav>
+        <nav class="header__site-nav">
           <ul class="header__menu">
             <li class="header__list">
               <a class="header__link" href="#Features">Features</a>
             </li>
             <li class="header__list">
-              <a class="header__link" href="#Our">Our stack</a>
+              <a class="header__link" href="#Mazgazine">Products</a>
             </li>
             <li class="header__list">
-              <a class="header__link" href="#Ceck">Fabregas</a>
+              <a class="header__link" href="#Our">Our stack</a>
             </li>
             <li class="header__list">
               <a class="header__link" href="#Img">Gallery</a>
             </li>
             <li class="header__list">
-              <a class="header__link" href="#Video">Video</a>
+              <a class="header__link" href="#Ceck">Fabregas</a>
             </li>
             <li class="header__list">
-              <a class="header__link" href="#Mazgazine">Products</a>
+              <a class="header__link" href="#Video">Video</a>
             </li>
             <li class="header__list">
               <a class="header__link" href="#Form">Forms</a>
             </li>
           </ul>
         </nav>
+
+        <button type="button" class="mobile-menu__btn">
+          <svg width="40" height="40" aria-label="Кнопка мобільного меню">
+            <use class="mobile-menu__icon--open" href="./image/icon.svg#menu-icon-open"></use>
+            <use class="mobile-menu__icon--close" href="./image/icon.svg#menu-icon-close"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -89,7 +96,7 @@
             <li class="features__item">
               <img
                 class="features__item-img"
-                src="https://cdn.pixabay.com/photo/2018/03/10/12/00/paper-3213924_1280.jpg"
+                src="https://cdn.pixabay.com/photo/2015/09/09/19/56/office-932926_1280.jpg"
                 alt="Four hands in a gesture of mutual assistance"
                 width="320"
               />
@@ -235,6 +242,14 @@
               height="320"
             />
 
+            <img
+              class="gallery__img"
+              src="https://loremflickr.com/320/240/dog"
+              alt="Довільна картинка від генератора"
+              width="540"
+              height="320"
+            />
+
             <a href="https://www.pexels.com/photo/animals-sweet-cat-kitty-57416/">
               <img
                 class="gallery__img"
@@ -244,14 +259,6 @@
                 height="320"
               />
             </a>
-
-            <img
-              class="gallery__img"
-              src="https://loremflickr.com/320/240/dog"
-              alt="Довільна картинка від генератора"
-              width="540"
-              height="320"
-            />
           </div>
         </div>
       </section>
@@ -360,4 +367,5 @@
       </div>
     </footer>
   </body>
+  <script src="./js/mobile-menu.js"></script>
 </html>

@@ -23,11 +23,17 @@
 }
 
 .grid__item {
-  flex-basis: calc(100% / 3 - 16px);
   min-width: 240px;
   margin-right: 8px;
   margin-left: 8px;
   margin-bottom: 16px;
+  @media screen and (min-width: 768px) and (max-width: 1279px) {
+    flex-basis: calc(100% / 2 - 16px);
+  }
+
+  @media screen and (min-width: 1280px) {
+    flex-basis: calc(100% / 3 - 16px);
+  }
 }
 
 .product {
