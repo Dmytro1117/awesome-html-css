@@ -19,6 +19,7 @@
 }
 
 .up-button--visible {
+  z-index: 100;
   display: block;
   opacity: 1;
 }
