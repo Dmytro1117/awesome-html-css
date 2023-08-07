@@ -59,7 +59,6 @@ img {
 }
 
 .up-button {
-  display: none;
   background-image: url("../image/up-button.png");
   background-color: transparent;
   background-repeat: no-repeat;
@@ -71,10 +70,7 @@ img {
   bottom: 50px;
   right: 50px;
   opacity: 0;
-  transition: opacity 500ms linear;
-  animation-name: animate__wobble;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
+  transition: opacity 1000ms linear;
   cursor: pointer;
   border-radius: 50%;
   border: none;
@@ -82,19 +78,9 @@ img {
 
 .up-button--visible {
   display: block;
+  opacity: 1;
 }
 
-@keyframes animate__wobble {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
 .header {
   background-color: #18a0fb;
   border-bottom: 1px solid #18a0fb;
