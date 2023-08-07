@@ -1,0 +1,39 @@
+.up-button {
+  display: none;
+  background-image: url('../image/up-button.png');
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 64px;
+  height: 64px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  opacity: 0;
+  transition: opacity 500ms linear;
+  animation-name: animate__wobble;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+}
+
+.up-button--visible {
+  //   @media screen and (min-width: 1280px) {
+  display: block;
+  //   }
+}
+
+@keyframes animate__wobble {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

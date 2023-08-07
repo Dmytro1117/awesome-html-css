@@ -51,9 +51,11 @@
     color: #2f303a;
     transition: background-color 250ms $transform-funct, color 250ms $transform-funct;
 
-    &:hover {
-      color: $primary-bkg-clr;
-      text-decoration: underline;
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: $secondary-bkg-clr;
+      color: $white-bkg-clr;
     }
   }
 

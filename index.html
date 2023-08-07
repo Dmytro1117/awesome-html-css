@@ -18,10 +18,15 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="top">
       <div class="header__container">
         <a href="/">
           <img src="./image/logo.png" alt="logo" width="44" />
@@ -42,10 +47,10 @@
               <a class="header__link" href="#Img">Gallery</a>
             </li>
             <li class="header__list">
-              <a class="header__link" href="#Ceck">Fabregas</a>
+              <a class="header__link" href="#Video">Video</a>
             </li>
             <li class="header__list">
-              <a class="header__link" href="#Video">Video</a>
+              <a class="header__link" href="#Ceck">Fabregas</a>
             </li>
             <li class="header__list">
               <a class="header__link" href="#Form">Forms</a>
@@ -60,6 +65,8 @@
           </svg>
         </button>
       </div>
+
+      <a class="up-button" href="#top"></a>
     </header>
 
     <main>
@@ -367,5 +374,7 @@
       </div>
     </footer>
   </body>
+
   <script src="./js/mobile-menu.js"></script>
+  <script src="./js/up-button.js"></script>
 </html>

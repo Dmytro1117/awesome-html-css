@@ -58,6 +58,43 @@ img {
   }
 }
 
+.up-button {
+  display: none;
+  background-image: url("../image/up-button.png");
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 64px;
+  height: 64px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  opacity: 0;
+  transition: opacity 500ms linear;
+  animation-name: animate__wobble;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+}
+
+.up-button--visible {
+  display: block;
+}
+
+@keyframes animate__wobble {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 .header {
   background-color: #18a0fb;
   border-bottom: 1px solid #18a0fb;
@@ -107,9 +144,9 @@ img {
     color: #2f303a;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .header__link:hover {
-    color: #18a0fb;
-    text-decoration: underline;
+  .header__link:hover, .header__link:focus, .header__link:active {
+    background-color: rgba(47, 48, 58, 0.093);
+    color: #fff;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -588,7 +625,7 @@ img {
 
 .chat-button {
   position: fixed;
-  right: 50px;
+  left: 50px;
   bottom: 50px;
   display: inline-block;
   width: 64px;
