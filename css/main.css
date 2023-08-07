@@ -68,7 +68,6 @@ img {
     position: relative;
     top: 0;
     left: 0;
-    background-color: #18a0fb;
     width: 100%;
     z-index: 10;
   }
@@ -83,7 +82,6 @@ img {
 }
 @media screen and (max-width: 767px) {
   .header__container {
-    overflow: visible;
     margin-left: auto;
     margin-right: auto;
     height: 60px;
@@ -166,13 +164,12 @@ img {
     justify-content: space-between;
     width: 100vw;
     height: 100vh;
-    z-index: 10;
     padding: 48px 40px;
     background-color: #18a0fb;
     transform: translateX(-100%);
     opacity: 0;
     pointer-events: none;
-    transition: transform 250ms linear, opacity 250ms 100ms;
+    transition: transform 250ms linear, opacity 250ms linear;
     overflow-y: scroll;
   }
   .header__menu.is-open {
@@ -187,8 +184,10 @@ img {
   }
 }
 
-body.modal-open {
-  overflow: hidden;
+@media screen and (max-width: 767px) {
+  body.modal-open {
+    overflow: hidden;
+  }
 }
 
 .features {
