@@ -1,2 +1,2 @@
 !function(){let e=window.screen.height,t=!1;window.addEventListener("scroll",function(){if(!t){let a=document.querySelector(".gallery__wrapper"),n=a.offsetTop;window.pageYOffset>n-e&&(a.style.setProperty("--animate-duration","2s"),a.classList.add("animate__animated","animate__backInLeft"),t=!0)}{let a=document.querySelector(".forms__item"),n=a.offsetTop;window.pageYOffset>n-e&&(a.style.setProperty("--animate-duration","3s"),a.classList.add("animate__animated","animate__fadeInBottomRight"),t=!0)}})}();
-//# sourceMappingURL=index.c0a66267.js.map
+//# sourceMappingURL=index.5e6b3bc1.js.map
