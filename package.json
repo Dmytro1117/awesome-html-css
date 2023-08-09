@@ -16,9 +16,9 @@
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"
   },
-  "browserslist": "> 0.5%, last 2 versions, not dead",
   "dependencies": {
     "animate.css": "^4.1.1",
     "modern-normalize": "^2.0.0"
-  }
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
 }
