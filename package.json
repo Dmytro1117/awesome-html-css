@@ -2,7 +2,7 @@
   "name": "awesome-html-css",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/Dmytro1117/awesome-html-css",
+  "homepage": "https://dmytro1117.github.io/awesome-html-css/",
   "scripts": {
     "start": "parcel src/index.html --open",
     "build": "parcel build src/*.html --public-url /awesome-html-css/"
