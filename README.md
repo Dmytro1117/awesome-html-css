@@ -1,4 +1,4 @@
-# HTML, CSS
+# HTML, SCSS, JS
 
 ![HTML, CSS](./assets/poster%20html%20css.jpg)
 
