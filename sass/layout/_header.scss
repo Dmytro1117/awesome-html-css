@@ -117,7 +117,7 @@
     // z-index: 10;
     padding: 48px 40px;
     background-color: $primary-bkg-clr;
-    transform: translateX(-100%);
+    transform: translateY(-100%);
     opacity: 0;
     pointer-events: none;
     transition: transform 250ms linear, opacity 250ms linear;
@@ -126,7 +126,7 @@
     &.is-open {
       opacity: 1;
       pointer-events: all;
-      transform: translateX(0%);
+      transform: translateY(0%);
     }
   }
 
