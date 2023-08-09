@@ -1,0 +1,53 @@
+<section class="forms" id="Form">
+  <div class="forms__container">
+    <h2 class="forms__title">Forms</h2>
+    <form class="forms__item" name="signup_form" autocomplete="on">
+      <label class="forms__label">
+        Username
+        <input
+          class="forms__input"
+          type="text"
+          name="text"
+          required
+          pattern="^[a-zA-Z]+\s[a-zA-Z]+$"
+          title="Username must be two words separated by space."
+        />
+      </label>
+
+      <label class="forms__label">
+        Phone number
+        <input class="forms__input" type="tel" name="phone_number" required />
+      </label>
+
+      <label class="forms__label">
+        Email
+        <input class="forms__input" type="email" name="email" required />
+      </label>
+
+      <label class="forms__label">
+        Password
+        <input
+          class="forms__input"
+          type="password"
+          name="password"
+          minlength="5"
+          maxlength="12"
+          required
+          pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"
+          title="Please include at least 1 uppercase character, 1 lowercase character, and 1 number."
+        />
+      </label>
+      <label class="forms__label">
+        Feedback
+        <textarea
+          class="forms__textaria"
+          name="feedback"
+          rows="5"
+          placeholder="Enter your message here..."
+        ></textarea>
+      </label>
+
+      <button class="forms-btn" type="submit">Submit</button>
+    </form>
+  </div>
+</section>
