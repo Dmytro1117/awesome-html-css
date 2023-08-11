@@ -53,6 +53,9 @@ typings/
 # Optional eslint cache
 .eslintcache
 
+# parcel-bundler cache (https://parceljs.org/)
+.parcel-cache
+
 # Microbundle cache
 .rpt2_cache/
 .rts2_cache_cjs/
