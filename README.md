@@ -1,6 +1,6 @@
 # HTML, CSS
 
-![HTML, CSS](./assets/poster%20html%20css.jpg)
+![HTML, CSS](./assets/HTML,%20CSS.png)
 
 ## Stack of technologies:
 
